@@ -10,28 +10,20 @@ import androidx.appcompat.app.AppCompatActivity
 
 class LoginActivity : AppCompatActivity() {
 
-    private lateinit var usernameEditText: EditText
-    private lateinit var passwordEditText: EditText
-    private lateinit var loginButton: Button
-    private lateinit var signUpText: TextView
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        // Initialize views
-        usernameEditText = findViewById(R.id.editTextUsername)
-        passwordEditText = findViewById(R.id.editTextPassword)
-        loginButton = findViewById(R.id.buttonLogin)
-        signUpText = findViewById(R.id.textViewSignUp)
+        val usernameEditText = findViewById<EditText>(R.id.editTextUsername)
+        val passwordEditText = findViewById<EditText>(R.id.editTextPassword)
+        val loginButton = findViewById<Button>(R.id.buttonLogin)
+        val signUpText = findViewById<TextView>(R.id.textViewSignUp)
 
-        // Set login button click listener
         loginButton.setOnClickListener {
             val username = usernameEditText.text.toString()
             val password = passwordEditText.text.toString()
 
             if (username.isNotEmpty() && password.isNotEmpty()) {
-                // Navigate to Dashboard
                 val intent = Intent(this, DashboardActivity::class.java)
                 startActivity(intent)
                 finish()
@@ -40,7 +32,6 @@ class LoginActivity : AppCompatActivity() {
             }
         }
 
-        // Sign up click listener
         signUpText.setOnClickListener {
             Toast.makeText(this, "Sign up feature coming soon!", Toast.LENGTH_SHORT).show()
         }

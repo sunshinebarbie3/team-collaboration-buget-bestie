@@ -3,9 +3,7 @@ package com.budgetbestie
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.cardview.widget.CardView
 
 class DashboardActivity : AppCompatActivity() {
 
@@ -13,19 +11,15 @@ class DashboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        // Set click listeners for navigation cards
-        val transactionsCard = findViewById<CardView>(R.id.cardTransactions)
-        val accountsCard = findViewById<CardView>(R.id.cardAccounts)
+        val btnTransactions = findViewById<Button>(R.id.btnTransactions)
+        val btnAccounts = findViewById<Button>(R.id.btnAccounts)
 
-        transactionsCard.setOnClickListener {
-            val intent = Intent(this, TransactionsActivity::class.java)
-            startActivity(intent)
+        btnTransactions.setOnClickListener {
+            startActivity(Intent(this, TransactionsActivity::class.java))
         }
 
-        accountsCard.setOnClickListener {
-            val intent = Intent(this, AccountsActivity::class.java)
-            startActivity(intent)
+        btnAccounts.setOnClickListener {
+            startActivity(Intent(this, AccountsActivity::class.java))
         }
     }
 }
-

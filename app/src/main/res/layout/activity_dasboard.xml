@@ -116,7 +116,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="R 92,050"
+                        android:text="R 12,050"
                         android:textColor="@color/dark_gray"
                         android:textSize="14sp"
                         android:textStyle="bold"
@@ -147,8 +147,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="- R 62,600"
-                        android:textColor="@color/red"
+                        android:text="R 17,400"
+                        android:textColor="@color/green"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:gravity="end" />
@@ -186,7 +186,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="SASS TAX"
+                    android:text="SARS TAX"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
 
