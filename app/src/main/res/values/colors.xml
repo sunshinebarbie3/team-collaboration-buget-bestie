@@ -13,4 +13,9 @@
     <color name="gray">#FF6B7280</color>
     <color name="dark_gray">#FF1E293B</color>
     <color name="light_gray">#FFF5F7FB</color>
+    <color name="purple_soft">#8B5CF6</color>
+    <color name="purple_light">#F3E8FF</color>
+    <color name="launch_background">#FFFFFF</color>
+    <color name="launch_background_gradient_start">#F5F7FB</color>
+    <color name="launch_background_gradient_end">#E0E7FF</color>
 </resources>
