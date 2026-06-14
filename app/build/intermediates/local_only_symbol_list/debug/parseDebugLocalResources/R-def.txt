@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+drawable badge_goal
+drawable button_primary
+drawable button_secondary
+drawable expense_photo_placeholder
+drawable ic_launcher
+drawable panel_bg
+string app_name
+style AppTheme

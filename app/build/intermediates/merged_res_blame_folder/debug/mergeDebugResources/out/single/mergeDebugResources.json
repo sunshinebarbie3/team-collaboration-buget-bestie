@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.budgetbestie.app-debug-4:/drawable_button_secondary.xml.flat",
+        "source": "com.example.budgetbestie.app-main-6:/drawable/button_secondary.xml"
+    },
+    {
+        "merged": "com.example.budgetbestie.app-debug-4:/drawable_badge_goal.xml.flat",
+        "source": "com.example.budgetbestie.app-main-6:/drawable/badge_goal.xml"
+    },
+    {
+        "merged": "com.example.budgetbestie.app-debug-4:/drawable_button_primary.xml.flat",
+        "source": "com.example.budgetbestie.app-main-6:/drawable/button_primary.xml"
+    },
+    {
+        "merged": "com.example.budgetbestie.app-debug-4:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.budgetbestie.app-main-6:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.budgetbestie.app-debug-4:/drawable_expense_photo_placeholder.xml.flat",
+        "source": "com.example.budgetbestie.app-main-6:/drawable/expense_photo_placeholder.xml"
+    },
+    {
+        "merged": "com.example.budgetbestie.app-debug-4:/drawable_panel_bg.xml.flat",
+        "source": "com.example.budgetbestie.app-main-6:/drawable/panel_bg.xml"
+    }
+]

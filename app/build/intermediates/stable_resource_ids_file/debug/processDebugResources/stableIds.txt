@@ -1,0 +1,8 @@
+com.example.budgetbestie:style/AppTheme = 0x7f030000
+com.example.budgetbestie:string/app_name = 0x7f020000
+com.example.budgetbestie:drawable/panel_bg = 0x7f010005
+com.example.budgetbestie:drawable/ic_launcher = 0x7f010004
+com.example.budgetbestie:drawable/expense_photo_placeholder = 0x7f010003
+com.example.budgetbestie:drawable/button_secondary = 0x7f010002
+com.example.budgetbestie:drawable/button_primary = 0x7f010001
+com.example.budgetbestie:drawable/badge_goal = 0x7f010000
